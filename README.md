@@ -1,29 +1,35 @@
-# 🍽️ Python Cafe Billing System (QR + UPI Payment)
+# 🍽️ Python Cafe Billing System (QR Code + UPI Payment)
 
-This is a Python mini project that takes customer orders, generates the total bill, and creates QR codes for:
-- ✅ Detailed Bill QR Code
-- ✅ UPI Payment QR Code (redirects to GPay/PhonePe)
+A Python mini project that takes customer orders, generates an itemized bill, and creates QR codes for:
+- ✅ Bill details (Bill QR)
+- ✅ UPI Payment QR (redirects to Google Pay / PhonePe / Paytm)
 
 ---
 
 ## 🚀 Features
 - Menu display
-- Order input with quantity
-- Bill generation with item-wise total
+- Customer order input with quantity
+- Item-wise total calculation
+- Final bill generation
 - Unique Order ID + Date/Time
-- Generates QR Code for bill details
-- Generates UPI Payment QR (Google Pay redirect)
+- Generates QR code containing complete bill details
+- Generates UPI payment QR code with amount pre-filled
 
 ---
 
-## 🛠️ Tech Used
+## 🛠️ Tech Stack
 - Python
-- qrcode library
+- qrcode library (`qrcode[pil]`)
+- datetime
+- random
 
 ---
 
 ## 📦 Installation
 
+Clone the repository:
 ```bash
-pip install -r requirements.txt
+git clone https://github.com/JainamShah/Python-Cafe-Billing-System.git
+cd Python-Cafe-Billing-System
+
 
