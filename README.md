@@ -25,6 +25,10 @@ A Python mini project that takes customer orders, generates an itemized bill, an
 
 ---
 
+## 🎥 Demo Video
+- YouTube: https://youtu.be/1mgvFB_qcew
+- LinkedIn Post: https://www.linkedin.com/in/jainamcreation/
+
 ## 📦 Installation
 
 Clone the repository:
